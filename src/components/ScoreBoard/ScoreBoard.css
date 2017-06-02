@@ -1,0 +1,7 @@
+.score-board {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 40vh;
+  padding: 10px;
+}
