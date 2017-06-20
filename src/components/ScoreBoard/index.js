@@ -19,6 +19,18 @@ class ScoreBoard extends React.Component {
         };
     }
 
+    // componentWillMount() {
+    //   this.ref = base.syncState('scores',
+    //     {
+    //       context: this,
+    //       state: 'scores'
+    //     });
+    // }
+    //
+    // componentWillUnmount() {
+    //   base.removeBinding(this.ref);
+    // }
+
     addScore(player) {
         const scores = [...this.state.scores, player];
         this.setState({ scores });
